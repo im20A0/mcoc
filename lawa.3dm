@@ -1,0 +1,11 @@
+{
+  label = "lawa",
+  lightLevel = 0,
+  emitRedstone = true,
+  buttonMode = false,
+  collidable = {true,true},
+  shapes={
+  {0,0,16,16,16,0,texture="lava_still"},
+  {0,0,16,16,16,0,texture="water_still",state=true}
+  }
+}
